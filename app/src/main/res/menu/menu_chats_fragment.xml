@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_chats"
+          android:title="Chats"
+          app:showAsAction="always"
+          android:icon="@drawable/ic_message_black_24dp"/>
+
+    <item android:id="@+id/menu_new_group"
+          android:title="New Group"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_new_broadcast"
+          android:title="New Broadcast Group"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_whatsapp_web"
+          android:title="Whatsapp Web"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_starred_messages"
+          android:title="Starred Messages"
+          app:showAsAction="never"/>
+
+</menu>
